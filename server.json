@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/calculadora_rtc-mcp",
+  "title": "Calculadora da Reforma Tributária (CBS/IBS)",
+  "description": "Brazil tax reform CBS/IBS calculator running Receita Federal's official open-source code.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/calculadora_rtc-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_calculadora_rtc"
+    }
+  ]
+}
